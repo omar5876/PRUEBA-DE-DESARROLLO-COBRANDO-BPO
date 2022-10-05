@@ -31,6 +31,7 @@ El microservicio consta de 4 endpoinds que son GET, POST, DELETE y UPDATE
 
 
 - GET   /empleado/:codigo
+
 En este endpoind se le pasa el codigo como parametro, por ejemplo /empleado/3
 ### Respuesta
 
@@ -46,6 +47,7 @@ En este endpoind se le pasa el codigo como parametro, por ejemplo /empleado/3
 
 
 - POST /empleado
+
 En este endpoind debemos pasar la informacion por body, los campos nif, nombre y apellido1 son campos requerido
 ### info por body
     {    
@@ -67,6 +69,7 @@ la respuesta sera el empleado que fue creado
     }
 
 - PUT /empleado/:codigo
+
 En este endpoind se le pasara el codigo como parametro, y lo campos que se van a actualizar se pasaran por body
 por ejemplo /empleado/1, y por body queremos actualizar el nir y el nombre
 
@@ -88,6 +91,7 @@ la respuesta sera el empleado con la informacion actualizada
     }
 
 - DELETE /empleado/:codigo
+
 En este endpoint se pasa como parametro el codigo para poderlo eliminar, por ejemplo /empleado/1
 
 ### Respuesta
